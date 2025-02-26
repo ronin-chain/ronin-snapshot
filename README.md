@@ -25,11 +25,11 @@ Here are snapshots of HBSS with leveldb and pebbledb.
   - Size: 445G
 
 
-- **Testnet LevelDB**: [leveldb-testnet-chaindata-20250225.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/leveldb-testnet-chaindata-20250225.tar.zst)
-  - MD5: 27a80504a25f523a4c4135c8933e5a3f
+- **Testnet LevelDB**: [leveldb-testnet-chaindata-20250226.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/leveldb-testnet-chaindata-20250226.tar.zst)
+  - MD5: f7bc3034930b3d4b2cac0da2667e4f2c
   - Size: 50G
 
-  - Inspect File: [leveldb-testnet-inspect-data-20250225.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/leveldb-testnet-inspect-data-20250225.txt)
+  - Inspect File: [leveldb-testnet-inspect-data-20250226.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/leveldb-testnet-inspect-data-20250226.txt)
   
 
 
@@ -37,7 +37,7 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 ### Usage
 
 Step 1: Preparation
-- Make sure your hardware meets the [suggested requirement](https://docs.roninchain.com/validators/setup/overview#hardware-requirements).
+- Make sure your hardware meets the [suggested requirement](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node).
 - A disk with enough free storage, at least twice the size of the snapshot.
 
 Step 2: Download & Uncompress
@@ -127,7 +127,7 @@ wget -q -O - <snapshot URL> | tar -I zstd -xvf -
 
 
 Step 3: Install the node
-- Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/rpc/mainnet-rpc)
+- Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node)
 - This docs is the detail for `6.(Optional) Download the snapshot`
 
 
