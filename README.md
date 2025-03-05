@@ -34,6 +34,16 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 
 
 
+#### Path-Base-State-Scheme:
+For PBSS snapshot, we only support PebbleDB engine:
+
+
+
+- **Testnet PBSS**: [pbss-testnet-chaindata-20250305.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-testnet-chaindata-20250305.tar.zst)
+  - MD5: 9eacd779da0b23cf5f524f1a4d7ecc96
+  - Size: 48G
+
+
 ### Usage
 
 Step 1: Preparation
@@ -127,8 +137,8 @@ wget -q -O - <snapshot URL> | tar -I zstd -xvf -
 
 
 Step 3: Install the node
-- Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/rpc/mainnet-rpc)
-- This docs is the detail for `6.(Optional) Download the snapshot`
+- Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/developers/nodes/mainnet)
+- This docs is the detail for `4.(Optional) Download the snapshot`
 
 
 ### Chaindata snapshot - Archive Node (Leveldb)
