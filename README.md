@@ -39,8 +39,8 @@ For PBSS snapshot, we only support PebbleDB engine:
 
 
 
-- **Testnet PBSS**: [pbss-testnet-chaindata-20250308.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-testnet-chaindata-20250308.tar.zst)
-  - MD5: cd40add647e3483a2dd1eac985f13c6a
+- **Testnet PBSS**: [pbss-testnet-chaindata-20250309.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-testnet-chaindata-20250309.tar.zst)
+  - MD5: bbcc147aa7f3c7631337121e9395d0a0
   - Size: 69G
 
 
@@ -215,3 +215,4 @@ tar -I zstd -xvf chaindata.tar.zst
 for i in {000..024}; do wget "https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20250206.tar.zst-$i"; done
 cat "leveldb-archive-mainnet-chaindata-20250206.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
+
