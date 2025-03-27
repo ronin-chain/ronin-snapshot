@@ -33,8 +33,8 @@ Here are snapshots of HBSS with leveldb and pebbledb.
   
 
 
-- **Testnet PebbleDB**: [pebbledb-testnet-chaindata-20250326.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-testnet-chaindata-20250326.tar.zst)
-  - MD5: 3162ab20914155591bb5de8544a702fb
+- **Testnet PebbleDB**: [pebbledb-testnet-chaindata-20250327.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-testnet-chaindata-20250327.tar.zst)
+  - MD5: e74c698372d6c35d949265b128fe7e96
   - Size: 52G
 
 
@@ -222,3 +222,4 @@ tar -I zstd -xvf chaindata.tar.zst
 for i in {000..025}; do wget "https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20250321.tar.zst-$i"; done
 cat "leveldb-archive-mainnet-chaindata-20250321.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
+
