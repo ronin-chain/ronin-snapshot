@@ -15,10 +15,10 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 
 #### Hash-Base-State-Scheme:
 
-- **Mainnet LevelDB**: [chaindata-20250410.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20250410.tar.zst)
-  - MD5: 1679bfac5e0d2822d3e4e1a708a9ef44
-  - Size: 463G
-  - Inspect File: [inspect-data-20250410.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20250410.txt)
+- **Mainnet LevelDB**: [chaindata-20250411.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20250411.tar.zst)
+  - MD5: 2d479eb8ebf3b0d7e9d337da8835e8ec
+  - Size: 461G
+  - Inspect File: [inspect-data-20250411.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20250411.txt)
 
 - **Mainnet PebbleDB**: [pebbledb-chaindata-20250410.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-chaindata-20250410.tar.zst)
   - MD5: 301d350bffee8adb6c151863f3b15d11
@@ -222,4 +222,3 @@ tar -I zstd -xvf chaindata.tar.zst
 for i in {000..025}; do wget "https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20250401.tar.zst-$i"; done
 cat "leveldb-archive-mainnet-chaindata-20250401.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
-
