@@ -20,9 +20,9 @@ Here are snapshots of HBSS with leveldb and pebbledb.
   - Size: 483G
   - Inspect File: [inspect-data-20250615.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20250615.txt)
 
-- **Mainnet PebbleDB**: [pebbledb-chaindata-20250615.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-chaindata-20250615.tar.zst)
-  - MD5: 4676ab65b002e895267cb07c3ac56e71
-  - Size: 481G
+- **Mainnet PebbleDB**: [pebbledb-chaindata-20250616.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-chaindata-20250616.tar.zst)
+  - MD5: 34c734d660f9129ff33c4b23b718800a
+  - Size: 478G
 
 
 
