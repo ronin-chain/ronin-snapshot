@@ -15,10 +15,10 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 
 #### Hash-Base-State-Scheme:
 
-- **Mainnet LevelDB**: [chaindata-20250907.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20250907.tar.zst)
-  - MD5: bf377d18f63349aba17e10f5ee230147
-  - Size: 527G
-  - Inspect File: [inspect-data-20250907.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20250907.txt)
+- **Mainnet LevelDB**: [chaindata-20250908.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20250908.tar.zst)
+  - MD5: 9455e32e05f3a4786b83d25ab455b2f6
+  - Size: 522G
+  - Inspect File: [inspect-data-20250908.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20250908.txt)
 
 - **Mainnet PebbleDB**: [pebbledb-chaindata-20250908.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-chaindata-20250908.tar.zst)
   - MD5: 0befa3891806bb32b4415e4f36799304
