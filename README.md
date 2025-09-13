@@ -37,8 +37,8 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 #### Path-Base-State-Scheme:
 For PBSS snapshot, we only support PebbleDB engine:
 
-- **Mainnet PBSS**: [pbss-chaindata-20250912.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-chaindata-20250912.tar.zst)
-  - MD5: 1a53fbdcf3561ef8c7f1e8e4b53170fd
+- **Mainnet PBSS**: [pbss-chaindata-20250913.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-chaindata-20250913.tar.zst)
+  - MD5: b32a4186c669d132841e11c9c10d66de
   - Size: 506G
 
 
