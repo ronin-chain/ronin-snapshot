@@ -43,8 +43,8 @@ For PBSS snapshot, we only support PebbleDB engine:
 
 
 
-- **Testnet PBSS**: [pbss-testnet-chaindata-20251002.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-testnet-chaindata-20251002.tar.zst)
-  - MD5: 7a6f5ab09dff328d306c2cb3971af420
+- **Testnet PBSS**: [pbss-testnet-chaindata-20251003.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-testnet-chaindata-20251003.tar.zst)
+  - MD5: 334aeef89093ca692949c9d8a610a40b
   - Size: 64G
 
 
