@@ -11,35 +11,14 @@
 
 ### Endpoint
 
-Here are snapshots of HBSS with leveldb and pebbledb.
-
-#### Hash-Base-State-Scheme:
-
-- **Mainnet LevelDB**: [chaindata-20251013.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20251013.tar.zst)
-  - MD5: faa824b59026ab32dff6440be34aeb21
-  - Size: 536G
-  - Inspect File: [inspect-data-20251013.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20251013.txt)
-
-- **Mainnet PebbleDB**: [pebbledb-chaindata-20251013.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-chaindata-20251013.tar.zst)
-  - MD5: 57f7d9a57ede5ed1536af46daf65a4b7
-  - Size: 534G
-
-
-
-
-
-- **Testnet PebbleDB**: [pebbledb-testnet-chaindata-20250518.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-testnet-chaindata-20250518.tar.zst)
-  - MD5: 53759440ae043bbf2209679bae8dfe0d
-  - Size: 54G
-
-
+> **Important Notice**: We will no longer support Hash-Based State Scheme (HBSS) and will only support Path-Based State Scheme (PBSS) going forward. Please migrate to PBSS following the [official documentation](https://docs.roninchain.com/developers/nodes/setup#enabling-path-based-state-storage-pbss).
 
 #### Path-Base-State-Scheme:
 For PBSS snapshot, we only support PebbleDB engine:
 
-- **Mainnet PBSS**: [pbss-chaindata-20251014.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-chaindata-20251014.tar.zst)
-  - MD5: b06d5a588ccc2f17070b4ecdca3d60e1
-  - Size: 514G
+- **Mainnet PBSS**: [pbss-chaindata-20251015.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-chaindata-20251015.tar.zst)
+  - MD5: e011ac0df7fd52424b1e1b4d97ffd82e
+  - Size: 515G
 
 
 
