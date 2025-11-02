@@ -16,9 +16,9 @@
 #### Path-Base-State-Scheme:
 For PBSS snapshot, we only support PebbleDB engine:
 
-- **Mainnet PBSS**: [pbss-chaindata-20251101.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-chaindata-20251101.tar.zst)
-  - MD5: a92052060063ad0af3084ade449c51a7
-  - Size: 523G
+- **Mainnet PBSS**: [pbss-chaindata-20251102.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pbss-chaindata-20251102.tar.zst)
+  - MD5: 86e12e9acc94c450329597508124ff33
+  - Size: 522G
 
 
 
